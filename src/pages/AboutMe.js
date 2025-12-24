@@ -17,7 +17,7 @@ function AboutMe() {
                   <div className="d-flex flex-column align-items-center mb-4" data-aos="zoom-in" data-aos-delay="200">
                     <div className="mb-3">
                       <img 
-                        src="./image.jpeg" 
+                        src={process.env.PUBLIC_URL + "/image.jpeg"} 
                         alt="Bhyri Ajay" 
                         className="rounded-circle border border-primary border-4 shadow-lg profile-image"
                         style={{width: '200px', height: '200px', objectFit: 'cover'}}
